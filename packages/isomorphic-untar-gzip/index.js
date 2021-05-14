@@ -28,10 +28,6 @@ function isGzip(buffer) {
 }
 
 export default function isomorphicUntar(buffer) {
-  if (!isArrayBuffer(buffer)) {
-    throw new Error("Buffer is not an array buffer");
-  }
-
   if (isArrayBuffer(buffer)) {
     buffer = new Uint8Array(buffer);
   }
