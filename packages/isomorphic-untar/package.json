@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "node.js",
   "browser": "browser.js",
+  "types": "main.d.ts",
   "type": "module",
   "license": "MIT",
   "files": [

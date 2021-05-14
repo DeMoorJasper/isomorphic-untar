@@ -1,8 +1,9 @@
 {
   "name": "isomorphic-untar-gzip",
   "version": "1.0.0",
-  "main": "lib/node.js",
-  "browser": "lib/browser.js",
+  "main": "./lib/node.js",
+  "browser": "./lib/browser.js",
+  "types": "main.d.ts",
   "license": "MIT",
   "scripts": {
     "build": "parcel build ./index.js --no-optimize",
