@@ -1,0 +1,17 @@
+{
+  "name": "isomorphic-untar",
+  "version": "1.0.0",
+  "main": "node.js",
+  "browser": "browser.js",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "browser.js",
+    "node.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "js-untar": "^2.0.0",
+    "tar-stream": "^2.2.0"
+  }
+}

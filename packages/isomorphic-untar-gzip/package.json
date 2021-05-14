@@ -1,0 +1,36 @@
+{
+  "name": "isomorphic-untar-gzip",
+  "version": "1.0.0",
+  "main": "lib/node.js",
+  "browser": "lib/browser.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build ./index.js --no-optimize",
+    "test": "jest"
+  },
+  "files": [
+    "lib",
+    "index.d.ts",
+    "package.json"
+  ],
+  "targets": {
+    "main": {
+      "isLibrary": true,
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    "browser": {
+      "isLibrary": true,
+      "engines": {
+        "browsers": "Chrome 70"
+      }
+    }
+  },
+  "devDependencies": {
+    "fs-extra": "^10.0.0",
+    "gzip-js": "^0.3.2",
+    "isomorphic-untar": "^1.0.0",
+    "parcel": "^2.0.0-nightly.665"
+  }
+}
