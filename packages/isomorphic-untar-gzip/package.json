@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-untar-gzip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/node.js",
   "browser": "./lib/browser.js",
   "types": "main.d.ts",
