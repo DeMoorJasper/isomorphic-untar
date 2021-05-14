@@ -27,7 +27,8 @@
       "engines": {
         "browsers": "Chrome 70"
       }
-    }
+    },
+    "types": false
   },
   "devDependencies": {
     "fs-extra": "^10.0.0",
