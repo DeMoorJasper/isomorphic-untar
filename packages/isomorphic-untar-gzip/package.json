@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "parcel build ./index.js --no-optimize",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "yarn build"
   },
   "files": [
     "lib",
