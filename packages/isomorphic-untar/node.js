@@ -19,7 +19,7 @@ module.exports = function untar(buffer) {
         uid: header.uid,
         gid: header.gid,
         size: header.size,
-        mtime: header.mtime?.getTime(),
+        mtime: header.mtime ? header.mtime.getTime() : undefined,
         type: header.type,
         uname: header.uname,
         gname: header.gname,
