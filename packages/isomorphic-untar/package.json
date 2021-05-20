@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-untar",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "node.js",
   "browser": "browser.js",
   "types": "main.d.ts",
