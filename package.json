@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "release": "lerna publish -y from-package --no-git-tag-version --no-push"
+    "release": "lerna publish -y from-package --no-git-tag-version --no-push",
+    "build": "lerna run build"
   },
   "workspaces": [
     "packages/*"

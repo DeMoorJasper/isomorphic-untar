@@ -36,6 +36,6 @@
   },
   "devDependencies": {
     "fs-extra": "^10.0.0",
-    "parcel": "^2.0.0-nightly.665"
+    "parcel": "^2.0.0"
   }
 }

@@ -4,7 +4,6 @@
   "main": "node.js",
   "browser": "browser.js",
   "types": "main.d.ts",
-  "type": "module",
   "license": "MIT",
   "files": [
     "browser.js",
