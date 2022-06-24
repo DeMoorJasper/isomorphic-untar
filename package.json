@@ -1,12 +1,12 @@
 {
   "name": "isomorphic-untar",
-  "version": "0.0.0-monorepo",
+  "version": "1.0.5",
   "main": "index.js",
   "license": "MIT",
   "private": true,
   "scripts": {
     "release": "lerna publish -y from-package --no-git-tag-version --no-push",
-    "version": "lerna version",
+    "tag:release": "lerna version --exact --force-publish=* --no-git-tag-version --no-push",
     "build": "lerna run build"
   },
   "workspaces": [
