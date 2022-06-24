@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "release": "lerna publish -y from-package --no-git-tag-version --no-push",
+    "version": "lerna version",
     "build": "lerna run build"
   },
   "workspaces": [
